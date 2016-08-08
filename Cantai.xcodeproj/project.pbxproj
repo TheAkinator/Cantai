@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F839491D593C4C00C6CB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F839481D593C4C00C6CB5A /* AppDelegate.swift */; };
+		C4F8394B1D593C4C00C6CB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8394A1D593C4C00C6CB5A /* ViewController.swift */; };
+		C4F8394E1D593C4C00C6CB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F8394C1D593C4C00C6CB5A /* Main.storyboard */; };
+		C4F839501D593C4C00C6CB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F8394F1D593C4C00C6CB5A /* Assets.xcassets */; };
+		C4F839531D593C4C00C6CB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F839511D593C4C00C6CB5A /* LaunchScreen.storyboard */; };
+		C4F8395E1D593C4C00C6CB5A /* CantaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8395D1D593C4C00C6CB5A /* CantaiTests.swift */; };
+		C4F839691D593C4C00C6CB5A /* CantaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F839681D593C4C00C6CB5A /* CantaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F8395A1D593C4C00C6CB5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F8393D1D593C4C00C6CB5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F839441D593C4C00C6CB5A;
+			remoteInfo = Cantai;
+		};
+		C4F839651D593C4C00C6CB5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F8393D1D593C4C00C6CB5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F839441D593C4C00C6CB5A;
+			remoteInfo = Cantai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F839451D593C4C00C6CB5A /* Cantai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F839481D593C4C00C6CB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4F8394A1D593C4C00C6CB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4F8394D1D593C4C00C6CB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F8394F1D593C4C00C6CB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F839521D593C4C00C6CB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F839541D593C4C00C6CB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F839591D593C4C00C6CB5A /* CantaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CantaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F8395D1D593C4C00C6CB5A /* CantaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantaiTests.swift; sourceTree = "<group>"; };
+		C4F8395F1D593C4C00C6CB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F839641D593C4C00C6CB5A /* CantaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CantaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F839681D593C4C00C6CB5A /* CantaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantaiUITests.swift; sourceTree = "<group>"; };
+		C4F8396A1D593C4C00C6CB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F839421D593C4C00C6CB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F839561D593C4C00C6CB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F839611D593C4C00C6CB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F8393C1D593C4C00C6CB5A = {
+			isa = PBXGroup;
+			children = (
+				C4F839471D593C4C00C6CB5A /* Cantai */,
+				C4F8395C1D593C4C00C6CB5A /* CantaiTests */,
+				C4F839671D593C4C00C6CB5A /* CantaiUITests */,
+				C4F839461D593C4C00C6CB5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F839461D593C4C00C6CB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F839451D593C4C00C6CB5A /* Cantai.app */,
+				C4F839591D593C4C00C6CB5A /* CantaiTests.xctest */,
+				C4F839641D593C4C00C6CB5A /* CantaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F839471D593C4C00C6CB5A /* Cantai */ = {
+			isa = PBXGroup;
+			children = (
+				C4F839481D593C4C00C6CB5A /* AppDelegate.swift */,
+				C4F8394A1D593C4C00C6CB5A /* ViewController.swift */,
+				C4F8394C1D593C4C00C6CB5A /* Main.storyboard */,
+				C4F8394F1D593C4C00C6CB5A /* Assets.xcassets */,
+				C4F839511D593C4C00C6CB5A /* LaunchScreen.storyboard */,
+				C4F839541D593C4C00C6CB5A /* Info.plist */,
+			);
+			path = Cantai;
+			sourceTree = "<group>";
+		};
+		C4F8395C1D593C4C00C6CB5A /* CantaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8395D1D593C4C00C6CB5A /* CantaiTests.swift */,
+				C4F8395F1D593C4C00C6CB5A /* Info.plist */,
+			);
+			path = CantaiTests;
+			sourceTree = "<group>";
+		};
+		C4F839671D593C4C00C6CB5A /* CantaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F839681D593C4C00C6CB5A /* CantaiUITests.swift */,
+				C4F8396A1D593C4C00C6CB5A /* Info.plist */,
+			);
+			path = CantaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F839441D593C4C00C6CB5A /* Cantai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F8396D1D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "Cantai" */;
+			buildPhases = (
+				C4F839411D593C4C00C6CB5A /* Sources */,
+				C4F839421D593C4C00C6CB5A /* Frameworks */,
+				C4F839431D593C4C00C6CB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cantai;
+			productName = Cantai;
+			productReference = C4F839451D593C4C00C6CB5A /* Cantai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F839581D593C4C00C6CB5A /* CantaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F839701D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiTests" */;
+			buildPhases = (
+				C4F839551D593C4C00C6CB5A /* Sources */,
+				C4F839561D593C4C00C6CB5A /* Frameworks */,
+				C4F839571D593C4C00C6CB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F8395B1D593C4C00C6CB5A /* PBXTargetDependency */,
+			);
+			name = CantaiTests;
+			productName = CantaiTests;
+			productReference = C4F839591D593C4C00C6CB5A /* CantaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F839631D593C4C00C6CB5A /* CantaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F839731D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiUITests" */;
+			buildPhases = (
+				C4F839601D593C4C00C6CB5A /* Sources */,
+				C4F839611D593C4C00C6CB5A /* Frameworks */,
+				C4F839621D593C4C00C6CB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F839661D593C4C00C6CB5A /* PBXTargetDependency */,
+			);
+			name = CantaiUITests;
+			productName = CantaiUITests;
+			productReference = C4F839641D593C4C00C6CB5A /* CantaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F8393D1D593C4C00C6CB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Raul;
+				TargetAttributes = {
+					C4F839441D593C4C00C6CB5A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C4F839581D593C4C00C6CB5A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4F839441D593C4C00C6CB5A;
+					};
+					C4F839631D593C4C00C6CB5A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4F839441D593C4C00C6CB5A;
+					};
+				};
+			};
+			buildConfigurationList = C4F839401D593C4C00C6CB5A /* Build configuration list for PBXProject "Cantai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F8393C1D593C4C00C6CB5A;
+			productRefGroup = C4F839461D593C4C00C6CB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F839441D593C4C00C6CB5A /* Cantai */,
+				C4F839581D593C4C00C6CB5A /* CantaiTests */,
+				C4F839631D593C4C00C6CB5A /* CantaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F839431D593C4C00C6CB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F839531D593C4C00C6CB5A /* LaunchScreen.storyboard in Resources */,
+				C4F839501D593C4C00C6CB5A /* Assets.xcassets in Resources */,
+				C4F8394E1D593C4C00C6CB5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F839571D593C4C00C6CB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F839621D593C4C00C6CB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F839411D593C4C00C6CB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8394B1D593C4C00C6CB5A /* ViewController.swift in Sources */,
+				C4F839491D593C4C00C6CB5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F839551D593C4C00C6CB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8395E1D593C4C00C6CB5A /* CantaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F839601D593C4C00C6CB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F839691D593C4C00C6CB5A /* CantaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F8395B1D593C4C00C6CB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F839441D593C4C00C6CB5A /* Cantai */;
+			targetProxy = C4F8395A1D593C4C00C6CB5A /* PBXContainerItemProxy */;
+		};
+		C4F839661D593C4C00C6CB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F839441D593C4C00C6CB5A /* Cantai */;
+			targetProxy = C4F839651D593C4C00C6CB5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F8394C1D593C4C00C6CB5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F8394D1D593C4C00C6CB5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F839511D593C4C00C6CB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F839521D593C4C00C6CB5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F8396B1D593C4C00C6CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4F8396C1D593C4C00C6CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F8396E1D593C4C00C6CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cantai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.Cantai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4F8396F1D593C4C00C6CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cantai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.Cantai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4F839711D593C4C00C6CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CantaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.CantaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cantai.app/Cantai";
+			};
+			name = Debug;
+		};
+		C4F839721D593C4C00C6CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CantaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.CantaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cantai.app/Cantai";
+			};
+			name = Release;
+		};
+		C4F839741D593C4C00C6CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CantaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.CantaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cantai;
+			};
+			name = Debug;
+		};
+		C4F839751D593C4C00C6CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CantaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.CantaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cantai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F839401D593C4C00C6CB5A /* Build configuration list for PBXProject "Cantai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8396B1D593C4C00C6CB5A /* Debug */,
+				C4F8396C1D593C4C00C6CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F8396D1D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "Cantai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8396E1D593C4C00C6CB5A /* Debug */,
+				C4F8396F1D593C4C00C6CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4F839701D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F839711D593C4C00C6CB5A /* Debug */,
+				C4F839721D593C4C00C6CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4F839731D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F839741D593C4C00C6CB5A /* Debug */,
+				C4F839751D593C4C00C6CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F8393D1D593C4C00C6CB5A /* Project object */;
+}
