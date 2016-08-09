@@ -41,9 +41,31 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
     
+
     // MARK: Actions
     @IBAction func loginDidTouch(sender: AnyObject) {
-        performSegueWithIdentifier(LoginToList, sender: nil)
+        
+        FIRAuth.auth()?.signInWithEmail(textFieldLoginEmail.text!, password: textFieldLoginPassword.text!) { (user, error) in
+            
+            if error == nil {
+                self.performSegueWithIdentifier(self.LoginToList, sender: nil)
+            } else {
+                let alert = UIAlertController(title: "Failed to login",
+                                              message: "Wrong E-mail or password ",
+                                              preferredStyle: .Alert)
+                let cancelAction = UIAlertAction(title: "OK",
+                                                 style: .Default) { (action: UIAlertAction) -> Void in
+                }
+                
+                alert.addAction(cancelAction)
+                self.presentViewController(alert,
+                                      animated: true,
+                                      completion: nil)
+
+                print(error?.localizedDescription)
+            }
+        }
+        
     }
     
     @IBAction func signUpDidTouch(sender: AnyObject) {
@@ -54,25 +76,28 @@ class LoginViewController: UIViewController {
         let saveAction = UIAlertAction(title: "Save",
                                        style: .Default) { (action: UIAlertAction) -> Void in
                                         
-                                        let emailField = alert.textFields![0]
-                                        let passwordField = alert.textFields![1]
+                let emailField = alert.textFields![0]
+                let passwordField = alert.textFields![1]
                                         
-//                                        // 1
-//
-//                                        self.ref.createUser(emailField.text, password: passwordField.text) { (error: NSError!) in
-//                                            // 2
-//                                            if error == nil {
-//                                                // 3
-//                                                print("cheguei!!!")
-//                                                self.ref.authUser(emailField.text, password: passwordField.text,
-//                                                                  withCompletionBlock: { (error, auth) -> Void in
-//                                                                    // 4
-//                                                })
-//                                            } else {
-//                                                print(error.localizedDescription)
-//                                            }
-//                                        }
-//                                        
+
+                FIRAuth.auth()?.createUserWithEmail(emailField.text!, password: passwordField.text!) { (user, error) in
+                    
+                    if error ==  nil {
+                        
+                        FIRAuth.auth()?.signInWithEmail(emailField.text!, password: passwordField.text!) { (user, error) in
+                            
+                            if error == nil {
+                                 self.performSegueWithIdentifier(self.LoginToList, sender: nil)
+                            } else {
+                                print(error?.localizedDescription)
+                            }
+                        
+                        }
+                    } else {
+                        print(error?.localizedDescription)
+                    }
+                }
+                                        
         }
         
         let cancelAction = UIAlertAction(title: "Cancel",

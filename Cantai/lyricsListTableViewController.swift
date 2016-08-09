@@ -25,6 +25,7 @@ import Firebase
 
 class lyricsListTableViewController: UITableViewController {
     
+   
     // MARK: Constants
     let ListToUsers = "ListToUsers"
     let ref = FIRDatabase.database().reference()
@@ -44,9 +45,9 @@ class lyricsListTableViewController: UITableViewController {
         tableView.allowsMultipleSelectionDuringEditing = false
         
         // User Count
-        userCountBarButtonItem = UIBarButtonItem(title: "1", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(lyricsListTableViewController.userCountButtonDidTouch))
-        userCountBarButtonItem.tintColor = UIColor.whiteColor()
-        navigationItem.leftBarButtonItem = userCountBarButtonItem
+//        userCountBarButtonItem = UIBarButtonItem(title: "1", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(lyricsListTableViewController.userCountButtonDidTouch))
+//        userCountBarButtonItem.tintColor = UIColor.whiteColor()
+//        navigationItem.leftBarButtonItem = userCountBarButtonItem
         
         user = User(uid: "FakeId", email: "hungry@person.food")
     }
@@ -136,17 +137,7 @@ class lyricsListTableViewController: UITableViewController {
 //            ])
 //    }
     
-    func toggleCellCheckbox(cell: UITableViewCell, isCompleted: Bool) {
-        if !isCompleted {
-            cell.accessoryType = UITableViewCellAccessoryType.None
-            cell.textLabel?.textColor = UIColor.blackColor()
-            cell.detailTextLabel?.textColor = UIColor.blackColor()
-        } else {
-            cell.accessoryType = UITableViewCellAccessoryType.Checkmark
-            cell.textLabel?.textColor = UIColor.grayColor()
-            cell.detailTextLabel?.textColor = UIColor.grayColor()
-        }
-    }
+
     
     // MARK: Add Item
     
@@ -193,8 +184,12 @@ class lyricsListTableViewController: UITableViewController {
                               completion: nil)
     }
     
-    func userCountButtonDidTouch() {
-        performSegueWithIdentifier(ListToUsers, sender: nil)
+    @IBAction func back(sender: AnyObject) {
+        
+        self.navigationController?.popToRootViewControllerAnimated(true)
     }
-    
+//    func userCountButtonDidTouch() {
+//        performSegueWithIdentifier(ListToUsers, sender: nil)
+//    }
+//    
 }
