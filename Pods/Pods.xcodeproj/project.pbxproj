@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F373E80B96D15AA1C96CA5BDEFD59F7 /* Pods-Cantai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EDB8816D6F0795F7F4D18029E941FE /* Pods-Cantai-dummy.m */; };
+		45599E67B68F2AC034545F813F8A7587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5DB93F7F4B86658D1C3ACE6A55BFE892 /* Pods-CantaiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D2A1ADB3BFBE6B287E3754B40C529 /* Pods-CantaiUITests-dummy.m */; };
+		5E207989D54E10434A5908F67BD092AE /* Pods-CantaiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBC97566F61645E1DF1390FE11C4D4F /* Pods-CantaiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82031CD40E405758B39E823FCB3EA1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9CC71AA80E1AC59455A599A0BCFEF9B6 /* Pods-CantaiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119DC002EA5E1E3D16C6A150471CB11C /* Pods-CantaiTests-dummy.m */; };
+		CBA1688324ABBA1D9EB0CC51DB73DB29 /* Pods-Cantai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39303B5FAD5C29E0B95C088074392F51 /* Pods-Cantai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1C307015CC870F24614E085C9CF34AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F7450D1F02BBADA7C1161C02BC54DE6A /* Pods-CantaiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8F160EA8128585F0719093564B22FD /* Pods-CantaiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0771ED53584C0102CA820BE57EA7E9D1 /* Pods-CantaiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CantaiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E550BEEC683004F9B5A9CA0D0FE5CFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE76F12F6BA64575FF1999C26DE1165 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		0F8F160EA8128585F0719093564B22FD /* Pods-CantaiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CantaiTests-umbrella.h"; sourceTree = "<group>"; };
+		119DC002EA5E1E3D16C6A150471CB11C /* Pods-CantaiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CantaiTests-dummy.m"; sourceTree = "<group>"; };
+		29612093947AD58E6118C11023211766 /* Pods-CantaiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CantaiUITests-frameworks.sh"; sourceTree = "<group>"; };
+		310D86CE17699E63A428EDAD69526CE1 /* Pods_Cantai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cantai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B4404197FA48C7B0A4935E000F807 /* Pods-CantaiUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CantaiUITests-resources.sh"; sourceTree = "<group>"; };
+		3773C19F18A2C83A2769DA0847C90A11 /* Pods-Cantai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cantai.debug.xcconfig"; sourceTree = "<group>"; };
+		39303B5FAD5C29E0B95C088074392F51 /* Pods-Cantai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cantai-umbrella.h"; sourceTree = "<group>"; };
+		3B797900A718FEBDDAF476221E9F9138 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		41081EC53C9007F5304D35931F0C56D2 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		443D2A1ADB3BFBE6B287E3754B40C529 /* Pods-CantaiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CantaiUITests-dummy.m"; sourceTree = "<group>"; };
+		4AE389419947E16886C75B3260AEDCB9 /* Pods_CantaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CantaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55681B4C65CD5FB5992284AC37922C3E /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		558918C16ED2F97E031EBC83553F6656 /* Pods-CantaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CantaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		56DBE3DB2C2A46FE71F36907F07EBED2 /* Pods-Cantai-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cantai-resources.sh"; sourceTree = "<group>"; };
+		669D3F2C8E5C5384C7D82CE910C7D4B4 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		681134C8008F01D87214239D11C322AE /* Pods-Cantai-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cantai-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A632F2F5737410A7C05487611879C1C /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		6ACC0C24600249F4D3A0658FF43D8280 /* Pods-Cantai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cantai.modulemap"; sourceTree = "<group>"; };
+		6B6590FF5F69D00525312BE83F413A72 /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Sources/FIRMessaging.h; sourceTree = "<group>"; };
+		6C2E1A628C92970E2D436B9001CA5D8B /* Pods-Cantai-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cantai-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D0B1ED9118D03B97536A7ED93239F90 /* Pods-CantaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CantaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FAB25C2911AAC7E7F171CF0A21A6BD9 /* Pods-CantaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CantaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		735493C392BA045978980B8502C1C5C5 /* Pods_CantaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CantaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D5ADD093B528B73ED13F67F071B0E8 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		8FF90E36A84A6DD271BF028C5F471559 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9622580E928A60AAAA1B4EB29EBBFA5B /* Pods-CantaiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CantaiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		964E8ED9B9FC2F45D5A772F71720F5CE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		9C46E3E5F8CB5F76265C3E8928E6C424 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A85DC1E96B52618C70CA4FD8F5047BE4 /* Pods-Cantai-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cantai-frameworks.sh"; sourceTree = "<group>"; };
+		AA04EFD017490ED7B13D56CBF0FA60F2 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		AEC89BDD4E321DBBF23BC34DBBB22F6C /* Pods-Cantai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cantai.release.xcconfig"; sourceTree = "<group>"; };
+		B77E3AA2DE17280CEEAD9F15E6265E9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC220C5AF9D07581620568E1916FB383 /* Pods-CantaiTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CantaiTests-resources.sh"; sourceTree = "<group>"; };
+		BDDD7557BB683199FB47496AD8ED9D1B /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		BE11B4BA84C976661FE7778F24117848 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		C3657353FA7FC738FCD4F09687E21EA2 /* Pods-CantaiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CantaiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3EDB8816D6F0795F7F4D18029E941FE /* Pods-Cantai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cantai-dummy.m"; sourceTree = "<group>"; };
+		D9798251156DCC0E3BC6DC07CA7ED5EF /* Pods-CantaiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CantaiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAA6AA124F1E7BA1DB7C754741B814EE /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		DC5E0C3981AD22B6568D29C58325C9AC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		DFA4C376C60D52978A2E3A4B7C05F546 /* Pods-CantaiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CantaiUITests.modulemap"; sourceTree = "<group>"; };
+		E5916BA07BCCB01EDC55A39EC55C96F9 /* Pods-CantaiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CantaiTests.modulemap"; sourceTree = "<group>"; };
+		E931C39827DCBD0EDA717FD90AB2E82F /* Pods-CantaiTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CantaiTests-frameworks.sh"; sourceTree = "<group>"; };
+		EDBC97566F61645E1DF1390FE11C4D4F /* Pods-CantaiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CantaiUITests-umbrella.h"; sourceTree = "<group>"; };
+		FDA3F71BF530EC64CC9D6B7BBDA1F2B0 /* Pods-CantaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CantaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		240629262C009A7F75699E38543F7EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82031CD40E405758B39E823FCB3EA1A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4291742388B6FEF057451182A70757E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45599E67B68F2AC034545F813F8A7587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640D543189898A5100205366C36A40FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C307015CC870F24614E085C9CF34AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0924114FA6D5D760C283D409EA438DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA04EFD017490ED7B13D56CBF0FA60F2 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D67CCD7F3B74BFEBB09BF2D32993B9E /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				4A1408C82B3577720B6A4DCBED308848 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		0E49A6E892EE21E62511CD27B7E60BFE /* Pods-Cantai */ = {
+			isa = PBXGroup;
+			children = (
+				8FF90E36A84A6DD271BF028C5F471559 /* Info.plist */,
+				6ACC0C24600249F4D3A0658FF43D8280 /* Pods-Cantai.modulemap */,
+				6C2E1A628C92970E2D436B9001CA5D8B /* Pods-Cantai-acknowledgements.markdown */,
+				681134C8008F01D87214239D11C322AE /* Pods-Cantai-acknowledgements.plist */,
+				D3EDB8816D6F0795F7F4D18029E941FE /* Pods-Cantai-dummy.m */,
+				A85DC1E96B52618C70CA4FD8F5047BE4 /* Pods-Cantai-frameworks.sh */,
+				56DBE3DB2C2A46FE71F36907F07EBED2 /* Pods-Cantai-resources.sh */,
+				39303B5FAD5C29E0B95C088074392F51 /* Pods-Cantai-umbrella.h */,
+				3773C19F18A2C83A2769DA0847C90A11 /* Pods-Cantai.debug.xcconfig */,
+				AEC89BDD4E321DBBF23BC34DBBB22F6C /* Pods-Cantai.release.xcconfig */,
+			);
+			name = "Pods-Cantai";
+			path = "Target Support Files/Pods-Cantai";
+			sourceTree = "<group>";
+		};
+		10BF66B38271B45A20A71F5F59900B28 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC5B22D977F2FDD079AF4EC8873B20 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		13C00874663E4F1EC4C2A46CC1059090 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A0289803230CA3DAA7373038BA9A7C85 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		21B3635258AC9107B03F0E1EAA7FC442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669D3F2C8E5C5384C7D82CE910C7D4B4 /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24150D5B39459B6BAC265ED9432E0520 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E49A6E892EE21E62511CD27B7E60BFE /* Pods-Cantai */,
+				E75A7679F72FD86C98D99133FCAAEB7B /* Pods-CantaiTests */,
+				D5010331220F42E4307F9E06D28D7B2E /* Pods-CantaiUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		24C04DE9684222504791CB556C70320B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310D86CE17699E63A428EDAD69526CE1 /* Pods_Cantai.framework */,
+				4AE389419947E16886C75B3260AEDCB9 /* Pods_CantaiTests.framework */,
+				735493C392BA045978980B8502C1C5C5 /* Pods_CantaiUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ED1892A45E36B7CC2C59887FA13A252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE11B4BA84C976661FE7778F24117848 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F8C4EC5986663F907976ED1F15CE507 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0924114FA6D5D760C283D409EA438DC0 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		33334A7178610AE64AFA8AEDCF406826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6AA124F1E7BA1DB7C754741B814EE /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41B89AD2CBD9C4884DBC2637EB86D032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5E0C3981AD22B6568D29C58325C9AC /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4289FCC2A8C88E943910D1463CA18481 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A9282640619293F1D746A8F21920C1D2 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		4A1408C82B3577720B6A4DCBED308848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EE76F12F6BA64575FF1999C26DE1165 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55EB9908FBE39A11FE2DE01684638585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B797900A718FEBDDAF476221E9F9138 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A4E64C19CC777A631921803F7C170FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4289FCC2A8C88E943910D1463CA18481 /* Firebase */,
+				10BF66B38271B45A20A71F5F59900B28 /* FirebaseAnalytics */,
+				74B3E328307697843C0B969C5D907EC7 /* FirebaseAuth */,
+				0D67CCD7F3B74BFEBB09BF2D32993B9E /* FirebaseDatabase */,
+				9388855F6E9B02A7DBAB434B96D02332 /* FirebaseInstanceID */,
+				7BBE0609340A66DD4A94DDE5D8301761 /* FirebaseMessaging */,
+				7DDF4EED98E591DE50EA93576FE3E91E /* FirebaseStorage */,
+				A2FA4503AC434A0D65461E2BAF64420D /* GoogleInterchangeUtilities */,
+				2F8C4EC5986663F907976ED1F15CE507 /* GoogleIPhoneUtilities */,
+				FFA53E92DE454523C79BC3EB1083F09C /* GoogleNetworkingUtilities */,
+				13C00874663E4F1EC4C2A46CC1059090 /* GoogleParsingUtilities */,
+				717BD36B3710D6497A119227328E68EA /* GoogleSymbolUtilities */,
+				F5C16F60F30EE3E1B97B1F4AD84436E9 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		717BD36B3710D6497A119227328E68EA /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				41B89AD2CBD9C4884DBC2637EB86D032 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		74B3E328307697843C0B969C5D907EC7 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				33334A7178610AE64AFA8AEDCF406826 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		7BBE0609340A66DD4A94DDE5D8301761 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				6B6590FF5F69D00525312BE83F413A72 /* FIRMessaging.h */,
+				21B3635258AC9107B03F0E1EAA7FC442 /* Frameworks */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6A4E64C19CC777A631921803F7C170FD /* Pods */,
+				24C04DE9684222504791CB556C70320B /* Products */,
+				24150D5B39459B6BAC265ED9432E0520 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDF4EED98E591DE50EA93576FE3E91E /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D8EF4F764AB1FCC67B3437697F132EDD /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		8EDC5B22D977F2FDD079AF4EC8873B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C46E3E5F8CB5F76265C3E8928E6C424 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9388855F6E9B02A7DBAB434B96D02332 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				6A632F2F5737410A7C05487611879C1C /* FIRInstanceID.h */,
+				2ED1892A45E36B7CC2C59887FA13A252 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		A0289803230CA3DAA7373038BA9A7C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55681B4C65CD5FB5992284AC37922C3E /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2FA4503AC434A0D65461E2BAF64420D /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				EDCE5AD175B43595043135EB00E6248E /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		A9282640619293F1D746A8F21920C1D2 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD7557BB683199FB47496AD8ED9D1B /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5010331220F42E4307F9E06D28D7B2E /* Pods-CantaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E550BEEC683004F9B5A9CA0D0FE5CFB /* Info.plist */,
+				DFA4C376C60D52978A2E3A4B7C05F546 /* Pods-CantaiUITests.modulemap */,
+				9622580E928A60AAAA1B4EB29EBBFA5B /* Pods-CantaiUITests-acknowledgements.markdown */,
+				D9798251156DCC0E3BC6DC07CA7ED5EF /* Pods-CantaiUITests-acknowledgements.plist */,
+				443D2A1ADB3BFBE6B287E3754B40C529 /* Pods-CantaiUITests-dummy.m */,
+				29612093947AD58E6118C11023211766 /* Pods-CantaiUITests-frameworks.sh */,
+				375B4404197FA48C7B0A4935E000F807 /* Pods-CantaiUITests-resources.sh */,
+				EDBC97566F61645E1DF1390FE11C4D4F /* Pods-CantaiUITests-umbrella.h */,
+				FDA3F71BF530EC64CC9D6B7BBDA1F2B0 /* Pods-CantaiUITests.debug.xcconfig */,
+				6FAB25C2911AAC7E7F171CF0A21A6BD9 /* Pods-CantaiUITests.release.xcconfig */,
+			);
+			name = "Pods-CantaiUITests";
+			path = "Target Support Files/Pods-CantaiUITests";
+			sourceTree = "<group>";
+		};
+		D8EF4F764AB1FCC67B3437697F132EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41081EC53C9007F5304D35931F0C56D2 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75A7679F72FD86C98D99133FCAAEB7B /* Pods-CantaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B77E3AA2DE17280CEEAD9F15E6265E9F /* Info.plist */,
+				E5916BA07BCCB01EDC55A39EC55C96F9 /* Pods-CantaiTests.modulemap */,
+				C3657353FA7FC738FCD4F09687E21EA2 /* Pods-CantaiTests-acknowledgements.markdown */,
+				0771ED53584C0102CA820BE57EA7E9D1 /* Pods-CantaiTests-acknowledgements.plist */,
+				119DC002EA5E1E3D16C6A150471CB11C /* Pods-CantaiTests-dummy.m */,
+				E931C39827DCBD0EDA717FD90AB2E82F /* Pods-CantaiTests-frameworks.sh */,
+				BC220C5AF9D07581620568E1916FB383 /* Pods-CantaiTests-resources.sh */,
+				0F8F160EA8128585F0719093564B22FD /* Pods-CantaiTests-umbrella.h */,
+				6D0B1ED9118D03B97536A7ED93239F90 /* Pods-CantaiTests.debug.xcconfig */,
+				558918C16ED2F97E031EBC83553F6656 /* Pods-CantaiTests.release.xcconfig */,
+			);
+			name = "Pods-CantaiTests";
+			path = "Target Support Files/Pods-CantaiTests";
+			sourceTree = "<group>";
+		};
+		EDCE5AD175B43595043135EB00E6248E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964E8ED9B9FC2F45D5A772F71720F5CE /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4C41340AF731236DB82980612710A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82D5ADD093B528B73ED13F67F071B0E8 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5C16F60F30EE3E1B97B1F4AD84436E9 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4C41340AF731236DB82980612710A17 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		FFA53E92DE454523C79BC3EB1083F09C /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				55EB9908FBE39A11FE2DE01684638585 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FE6BE9CDD6E5B4D8F2473467ECF18F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1688324ABBA1D9EB0CC51DB73DB29 /* Pods-Cantai-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E588834D570B71981751F4488AF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E207989D54E10434A5908F67BD092AE /* Pods-CantaiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DD2ADE846EF9A3485D2ECD7C656947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7450D1F02BBADA7C1161C02BC54DE6A /* Pods-CantaiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7CCD3C64D8C695BE75874D4041F0BA64 /* Pods-Cantai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEC7B47D79FE8D7690EA5CCE0CA4F26 /* Build configuration list for PBXNativeTarget "Pods-Cantai" */;
+			buildPhases = (
+				6B97690845D8B6F69B6A0BECA29A9BE3 /* Sources */,
+				240629262C009A7F75699E38543F7EDA /* Frameworks */,
+				1FE6BE9CDD6E5B4D8F2473467ECF18F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cantai";
+			productName = "Pods-Cantai";
+			productReference = 310D86CE17699E63A428EDAD69526CE1 /* Pods_Cantai.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2CBEB558E87D0D92595CBB061B4E484 /* Pods-CantaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46A99EED25C6996A30A578E336C45D3 /* Build configuration list for PBXNativeTarget "Pods-CantaiTests" */;
+			buildPhases = (
+				849CF4F27FD3DD916B8A2CF147412AE4 /* Sources */,
+				4291742388B6FEF057451182A70757E8 /* Frameworks */,
+				E4DD2ADE846EF9A3485D2ECD7C656947 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CantaiTests";
+			productName = "Pods-CantaiTests";
+			productReference = 4AE389419947E16886C75B3260AEDCB9 /* Pods_CantaiTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD73365D40691A0B05D516384C4583E2 /* Pods-CantaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E504B479321E8E48890202D29A907625 /* Build configuration list for PBXNativeTarget "Pods-CantaiUITests" */;
+			buildPhases = (
+				0500BF8D20D502EA4E2BF3D2AFF9E1F8 /* Sources */,
+				640D543189898A5100205366C36A40FB /* Frameworks */,
+				8A69E588834D570B71981751F4488AF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CantaiUITests";
+			productName = "Pods-CantaiUITests";
+			productReference = 735493C392BA045978980B8502C1C5C5 /* Pods_CantaiUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 24C04DE9684222504791CB556C70320B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCD3C64D8C695BE75874D4041F0BA64 /* Pods-Cantai */,
+				A2CBEB558E87D0D92595CBB061B4E484 /* Pods-CantaiTests */,
+				CD73365D40691A0B05D516384C4583E2 /* Pods-CantaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0500BF8D20D502EA4E2BF3D2AFF9E1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB93F7F4B86658D1C3ACE6A55BFE892 /* Pods-CantaiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B97690845D8B6F69B6A0BECA29A9BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F373E80B96D15AA1C96CA5BDEFD59F7 /* Pods-Cantai-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849CF4F27FD3DD916B8A2CF147412AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC71AA80E1AC59455A599A0BCFEF9B6 /* Pods-CantaiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1265CF1FFC70AB66F884127B47CB7EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3773C19F18A2C83A2769DA0847C90A11 /* Pods-Cantai.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cantai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cantai/Pods-Cantai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cantai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		165125B515FAAAEC8DE911EA6D00F00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0B1ED9118D03B97536A7ED93239F90 /* Pods-CantaiTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CantaiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CantaiTests/Pods-CantaiTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CantaiTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C4E62247A3F27AD85E53C707E77481C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC89BDD4E321DBBF23BC34DBBB22F6C /* Pods-Cantai.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cantai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cantai/Pods-Cantai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cantai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3466F1933472DD739C72368330893A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAB25C2911AAC7E7F171CF0A21A6BD9 /* Pods-CantaiUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CantaiUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CantaiUITests/Pods-CantaiUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CantaiUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1B138E6B6EB3028E86F7E57477FB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA3F71BF530EC64CC9D6B7BBDA1F2B0 /* Pods-CantaiUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CantaiUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CantaiUITests/Pods-CantaiUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CantaiUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74DB68BAA6C5C53E78697DB8A7F1A3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558918C16ED2F97E031EBC83553F6656 /* Pods-CantaiTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CantaiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CantaiTests/Pods-CantaiTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CantaiTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BEC7B47D79FE8D7690EA5CCE0CA4F26 /* Build configuration list for PBXNativeTarget "Pods-Cantai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1265CF1FFC70AB66F884127B47CB7EA1 /* Debug */,
+				1C4E62247A3F27AD85E53C707E77481C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46A99EED25C6996A30A578E336C45D3 /* Build configuration list for PBXNativeTarget "Pods-CantaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165125B515FAAAEC8DE911EA6D00F00E /* Debug */,
+				74DB68BAA6C5C53E78697DB8A7F1A3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E504B479321E8E48890202D29A907625 /* Build configuration list for PBXNativeTarget "Pods-CantaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1B138E6B6EB3028E86F7E57477FB24 /* Debug */,
+				3466F1933472DD739C72368330893A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6D1859CCAA608EC9C379F6F /* Pods_CantaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40B6337683A271048FC5F03 /* Pods_CantaiTests.framework */; };
+		BAC20BD923A0ED5BDBA239C0 /* Pods_Cantai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847B8ED20D05DE666BF379D7 /* Pods_Cantai.framework */; };
 		C4F839491D593C4C00C6CB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F839481D593C4C00C6CB5A /* AppDelegate.swift */; };
 		C4F8394B1D593C4C00C6CB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8394A1D593C4C00C6CB5A /* ViewController.swift */; };
 		C4F8394E1D593C4C00C6CB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F8394C1D593C4C00C6CB5A /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		C4F839531D593C4C00C6CB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F839511D593C4C00C6CB5A /* LaunchScreen.storyboard */; };
 		C4F8395E1D593C4C00C6CB5A /* CantaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8395D1D593C4C00C6CB5A /* CantaiTests.swift */; };
 		C4F839691D593C4C00C6CB5A /* CantaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F839681D593C4C00C6CB5A /* CantaiUITests.swift */; };
+		C4F8397C1D597A9100C6CB5A /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8397A1D597A9100C6CB5A /* Music.swift */; };
+		C4F8397D1D597A9100C6CB5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8397B1D597A9100C6CB5A /* User.swift */; };
+		C4F839811D597F5100C6CB5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8397E1D597F5100C6CB5A /* LoginViewController.swift */; };
+		C4F839821D597F5100C6CB5A /* lyricsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8397F1D597F5100C6CB5A /* lyricsListTableViewController.swift */; };
+		C4F839851D59854000C6CB5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4F839841D59853F00C6CB5A /* GoogleService-Info.plist */; };
+		C9C343E1FA5B27D3CFB2DA88 /* Pods_CantaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53869D862D87C91845D1274C /* Pods_CantaiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DC76142FAB47BF987DD73E /* Pods-Cantai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cantai/Pods-Cantai.debug.xcconfig"; sourceTree = "<group>"; };
+		4238B0718BF9148A778E948F /* Pods-CantaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantaiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CantaiUITests/Pods-CantaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7F32FE7E39B65BE41D2432 /* Pods-CantaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantaiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CantaiTests/Pods-CantaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53869D862D87C91845D1274C /* Pods_CantaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CantaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		746FFD4DD3EAC460B85EE3D9 /* Pods-CantaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantaiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CantaiTests/Pods-CantaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		847B8ED20D05DE666BF379D7 /* Pods_Cantai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cantai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88382F32E932D25AC7E99E41 /* Pods-CantaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantaiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CantaiUITests/Pods-CantaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A40B6337683A271048FC5F03 /* Pods_CantaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CantaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC74B4D500966D70A7228256 /* Pods-Cantai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantai.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cantai/Pods-Cantai.release.xcconfig"; sourceTree = "<group>"; };
 		C4F839451D593C4C00C6CB5A /* Cantai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F839481D593C4C00C6CB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F8394A1D593C4C00C6CB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,11 @@
 		C4F839641D593C4C00C6CB5A /* CantaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CantaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F839681D593C4C00C6CB5A /* CantaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantaiUITests.swift; sourceTree = "<group>"; };
 		C4F8396A1D593C4C00C6CB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F8397A1D597A9100C6CB5A /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		C4F8397B1D597A9100C6CB5A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4F8397E1D597F5100C6CB5A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4F8397F1D597F5100C6CB5A /* lyricsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lyricsListTableViewController.swift; sourceTree = "<group>"; };
+		C4F839841D59853F00C6CB5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC20BD923A0ED5BDBA239C0 /* Pods_Cantai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D1859CCAA608EC9C379F6F /* Pods_CantaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C343E1FA5B27D3CFB2DA88 /* Pods_CantaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CEA238D4A85381CD5B2F0E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01DC76142FAB47BF987DD73E /* Pods-Cantai.debug.xcconfig */,
+				AC74B4D500966D70A7228256 /* Pods-Cantai.release.xcconfig */,
+				4A7F32FE7E39B65BE41D2432 /* Pods-CantaiTests.debug.xcconfig */,
+				746FFD4DD3EAC460B85EE3D9 /* Pods-CantaiTests.release.xcconfig */,
+				4238B0718BF9148A778E948F /* Pods-CantaiUITests.debug.xcconfig */,
+				88382F32E932D25AC7E99E41 /* Pods-CantaiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9968C18324861CB39336995B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847B8ED20D05DE666BF379D7 /* Pods_Cantai.framework */,
+				A40B6337683A271048FC5F03 /* Pods_CantaiTests.framework */,
+				53869D862D87C91845D1274C /* Pods_CantaiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4F8393C1D593C4C00C6CB5A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				C4F8395C1D593C4C00C6CB5A /* CantaiTests */,
 				C4F839671D593C4C00C6CB5A /* CantaiUITests */,
 				C4F839461D593C4C00C6CB5A /* Products */,
+				2CEA238D4A85381CD5B2F0E6 /* Pods */,
+				9968C18324861CB39336995B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +147,13 @@
 		C4F839471D593C4C00C6CB5A /* Cantai */ = {
 			isa = PBXGroup;
 			children = (
-				C4F839481D593C4C00C6CB5A /* AppDelegate.swift */,
-				C4F8394A1D593C4C00C6CB5A /* ViewController.swift */,
-				C4F8394C1D593C4C00C6CB5A /* Main.storyboard */,
+				C4F839791D597A5900C6CB5A /* Others */,
+				C4F839781D597A4500C6CB5A /* Views */,
+				C4F839771D597A3D00C6CB5A /* Model */,
+				C4F839761D597A3300C6CB5A /* Controller */,
 				C4F8394F1D593C4C00C6CB5A /* Assets.xcassets */,
-				C4F839511D593C4C00C6CB5A /* LaunchScreen.storyboard */,
 				C4F839541D593C4C00C6CB5A /* Info.plist */,
+				C4F839841D59853F00C6CB5A /* GoogleService-Info.plist */,
 			);
 			path = Cantai;
 			sourceTree = "<group>";
@@ -125,6 +176,42 @@
 			path = CantaiUITests;
 			sourceTree = "<group>";
 		};
+		C4F839761D597A3300C6CB5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8397E1D597F5100C6CB5A /* LoginViewController.swift */,
+				C4F8397F1D597F5100C6CB5A /* lyricsListTableViewController.swift */,
+				C4F8394A1D593C4C00C6CB5A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C4F839771D597A3D00C6CB5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8397A1D597A9100C6CB5A /* Music.swift */,
+				C4F8397B1D597A9100C6CB5A /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C4F839781D597A4500C6CB5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4F839511D593C4C00C6CB5A /* LaunchScreen.storyboard */,
+				C4F8394C1D593C4C00C6CB5A /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C4F839791D597A5900C6CB5A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C4F839481D593C4C00C6CB5A /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F8396D1D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "Cantai" */;
 			buildPhases = (
+				91FEC9BCE6A329B66922F3B0 /* [CP] Check Pods Manifest.lock */,
 				C4F839411D593C4C00C6CB5A /* Sources */,
 				C4F839421D593C4C00C6CB5A /* Frameworks */,
 				C4F839431D593C4C00C6CB5A /* Resources */,
+				3E0D0BEE207DBEF99582E396 /* [CP] Embed Pods Frameworks */,
+				1933D9F45B3AFFB4A4DA66E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F839701D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiTests" */;
 			buildPhases = (
+				33C24C02B61F5EEA365BAC5C /* [CP] Check Pods Manifest.lock */,
 				C4F839551D593C4C00C6CB5A /* Sources */,
 				C4F839561D593C4C00C6CB5A /* Frameworks */,
 				C4F839571D593C4C00C6CB5A /* Resources */,
+				BD2A62BA59DD6A142326DC83 /* [CP] Embed Pods Frameworks */,
+				CD4643B0B838B07585621E7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F839731D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiUITests" */;
 			buildPhases = (
+				C10ED552A5FD32FBCA3EB9B2 /* [CP] Check Pods Manifest.lock */,
 				C4F839601D593C4C00C6CB5A /* Sources */,
 				C4F839611D593C4C00C6CB5A /* Frameworks */,
 				C4F839621D593C4C00C6CB5A /* Resources */,
+				F7F0E1DF9F017CAE1AE5EC29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +288,7 @@
 				TargetAttributes = {
 					C4F839441D593C4C00C6CB5A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GU7GC8K67U;
 					};
 					C4F839581D593C4C00C6CB5A = {
 						CreatedOnToolsVersion = 7.3;
@@ -230,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F839531D593C4C00C6CB5A /* LaunchScreen.storyboard in Resources */,
+				C4F839851D59854000C6CB5A /* GoogleService-Info.plist in Resources */,
 				C4F839501D593C4C00C6CB5A /* Assets.xcassets in Resources */,
 				C4F8394E1D593C4C00C6CB5A /* Main.storyboard in Resources */,
 			);
@@ -251,12 +348,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1933D9F45B3AFFB4A4DA66E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cantai/Pods-Cantai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33C24C02B61F5EEA365BAC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0D0BEE207DBEF99582E396 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cantai/Pods-Cantai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FEC9BCE6A329B66922F3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2A62BA59DD6A142326DC83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantaiTests/Pods-CantaiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10ED552A5FD32FBCA3EB9B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4643B0B838B07585621E7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantaiTests/Pods-CantaiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F0E1DF9F017CAE1AE5EC29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantaiUITests/Pods-CantaiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4F839411D593C4C00C6CB5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F8397D1D597A9100C6CB5A /* User.swift in Sources */,
+				C4F839821D597F5100C6CB5A /* lyricsListTableViewController.swift in Sources */,
 				C4F8394B1D593C4C00C6CB5A /* ViewController.swift in Sources */,
+				C4F8397C1D597A9100C6CB5A /* Music.swift in Sources */,
+				C4F839811D597F5100C6CB5A /* LoginViewController.swift in Sources */,
 				C4F839491D593C4C00C6CB5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,28 +623,37 @@
 		};
 		C4F8396E1D593C4C00C6CB5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DC76142FAB47BF987DD73E /* Pods-Cantai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cantai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.Cantai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		C4F8396F1D593C4C00C6CB5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC74B4D500966D70A7228256 /* Pods-Cantai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cantai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.Cantai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		C4F839711D593C4C00C6CB5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7F32FE7E39B65BE41D2432 /* Pods-CantaiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CantaiTests/Info.plist;
@@ -433,6 +666,7 @@
 		};
 		C4F839721D593C4C00C6CB5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746FFD4DD3EAC460B85EE3D9 /* Pods-CantaiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CantaiTests/Info.plist;
@@ -445,6 +679,7 @@
 		};
 		C4F839741D593C4C00C6CB5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4238B0718BF9148A778E948F /* Pods-CantaiUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CantaiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +691,7 @@
 		};
 		C4F839751D593C4C00C6CB5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88382F32E932D25AC7E99E41 /* Pods-CantaiUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CantaiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +720,7 @@
 				C4F8396F1D593C4C00C6CB5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4F839701D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +729,7 @@
 				C4F839721D593C4C00C6CB5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4F839731D593C4C00C6CB5A /* Build configuration list for PBXNativeTarget "CantaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +738,7 @@
 				C4F839751D593C4C00C6CB5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
